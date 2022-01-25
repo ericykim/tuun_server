@@ -1,1 +1,7 @@
 .idea
+
+#Ignore everything in target folder
+/target/*
+
+#Don't ignore jar
+!/target/tuun-server-0.0.1-SNAPSHOT.jar
