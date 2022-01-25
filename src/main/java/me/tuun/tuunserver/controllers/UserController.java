@@ -15,7 +15,7 @@ public class UserController {
 
   @GetMapping("/")
   public String health() {
-    return "Test Works";
+    return "Test That Workflow Works";
   }
 
   @GetMapping("/api/v1/users/{userId}")
